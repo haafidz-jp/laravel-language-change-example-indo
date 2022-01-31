@@ -50,6 +50,7 @@
                                 <option value="en" @if(app()->getLocale() == 'en') selected @endif>@lang("English")</option>
                                 <option value="es" @if(app()->getLocale() == 'es') selected @endif>@lang("Spanish")</option>
                                 <option value="pt-br" @if(app()->getLocale() == 'pt-br') selected @endif>@lang("Portuguese")</option>
+                                <option value="id" @if(app()->getLocale() == 'id') selected @endif>@lang("Indonesia")</option>
                             </select>
                         </div>
                     </div>
